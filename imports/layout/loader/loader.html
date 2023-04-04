@@ -1,0 +1,18 @@
+<template name="layoutLoader">
+    {{#if isLoader}}
+        {{> spinner}}
+    {{/if}}
+</template>
+
+<template name="spinner">
+    <div class="loader-container">
+        <div class="loader">
+            <div class="loader-dot"></div>
+            <div class="loader-dot"></div>
+            <div class="loader-dot"></div>
+            <div class="loader-dot"></div>
+            <div class="loader-dot"></div>
+            <div class="loader-dot"></div>
+        </div>
+    </div>
+</template>

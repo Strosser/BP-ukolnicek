@@ -1,0 +1,18 @@
+<template name="register">
+    <form id="registerForm" class="auth-form glass-container">
+        <h3>Registrace</h3>
+
+        <label for="username">Uživatelské jméno</label>
+        <input type="text" placeholder="Uživatelské jméno" id="username" required>
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="Email" id="email" required>
+
+        <label for="password">Heslo</label>
+        <input type="password" placeholder="Heslo" id="password" required>
+
+        <button type="submit">Zaregistrovat se</button>
+
+        <p class="text-center mt-3">Už máte účet? <a href="{{urlFor 'login'}}">Přihlašte se</a></p>
+    </form>
+</template>

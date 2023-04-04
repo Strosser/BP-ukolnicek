@@ -1,0 +1,15 @@
+<template name="login">
+    <form id="loginForm" class="auth-form glass-container">
+        <h3>Pro užívání aplikace se musíte přihlásit</h3>
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="Email" id="email" required>
+
+        <label for="password">Heslo</label>
+        <input type="password" placeholder="Heslo" id="password" required>
+
+        <button type="submit">Přihlásit se</button>
+
+        <p class="text-center mt-3">Ještě nemáte účet? <a href="{{urlFor 'register'}}">Zaregistrujte se</a></p>
+    </form>
+</template>

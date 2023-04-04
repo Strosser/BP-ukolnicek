@@ -1,0 +1,1 @@
+export const TodoList = new Mongo.Collection('todo-list')
